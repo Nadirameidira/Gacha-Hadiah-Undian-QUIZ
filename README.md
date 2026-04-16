@@ -37,8 +37,6 @@ GET http://localhost:5000/api/gacha/quota
 - Contoh Request di echo API "
 GET http://localhost:5000/api/gacha/winners
 
-
-
 # Backend Programming Template (2025)
 
 ## Development Setup
