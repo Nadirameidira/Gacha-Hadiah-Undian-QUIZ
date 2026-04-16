@@ -1,4 +1,4 @@
-# PENJELASAN END POINT DAN PARAMETER
+# PENJELASAN END POINT 
 #### MEISA PUTRI NADIRA 535250066
 
 ## Gacha System API QUIZZ BACKEND 
@@ -6,6 +6,7 @@
 ## Daftar Endpoint yang Tersedia
 
 ### Melakukan Spin Gacha
+
 - Endpoint: `POST /api/gacha/spin`
 - Route : `route.post('/spin', gachaController.spin)`
 - Deskripsi: untuk spin gacha undian
@@ -19,19 +20,25 @@ POST http://localhost:5000/api/gacha/spin
  // ini di raw body
 
 ### MELIHAT HISTORI GACHA SI USER
+<img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/7213a8a4-1447-40f6-b65d-e11021b8291f" />
+
 - Endpoint: `GET /api/gacha/history/:id`
 - Route: `  route.get('/history/:id', gachaController.history);`
-- Deskripsi: Menampilkan riwayat spin yang sudah dilakukan oleh user 
+- Deskripsi: Menampilkan riwayat spin yang sudah dilakukan oleh user/client
 - Parameter : Id dengan tipe string
 GET http://localhost:5000/api/gacha/history/69e07ba96bde80b90082b3f2
 
 ### MELIHAT SISA KUOTA HADIAH UNDIAN
-- Endpoint: GET /api/gacha/quota
+<img width="1902" height="1014" alt="Image" src="https://github.com/user-attachments/assets/48e5783a-9ac3-4424-bd95-96d6cb186253" />
+
+- Endpoint: `GET /api/gacha/quota`
 - Deskripsi: Menampilkan sisa kuota pemenang untuk setiap hadiah yang ada untuk undian 
 - Parameter Input: Tidak ada
 GET http://localhost:5000/api/gacha/quota
 
 ### MELIHAT DAFTAR PEMENANG
+<img width="1891" height="994" alt="Image" src="https://github.com/user-attachments/assets/46117bce-5d8f-4903-97a7-372f307ec41f" />
+
 - Endpoint : `GET api/gacha/winners`
 - Deskripsi : Untuk mengetahui history gacha winnersnya yang sudah di sensor seperti contoh: (1) J*** *oe; atau (2) *oh* D*e.
 - Contoh Request di echo API "
