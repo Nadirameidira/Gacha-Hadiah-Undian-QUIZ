@@ -6,6 +6,14 @@
 ## Daftar Endpoint yang Tersedia
 
 ### Melakukan Spin Gacha
+**Zonk ver**
+<img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/11c5c31f-f913-47fb-8571-0ff6d381eb2c" />
+
+**win ver**
+<img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/4cae3e5b-c0cf-4960-b7cc-9634bd634951" />
+
+**5x limt dah abis**
+<img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/a03db7a9-fe54-4352-ae5b-665d7f418470" />
 
 - Endpoint: `POST /api/gacha/spin`
 - Route : `route.post('/spin', gachaController.spin)`
