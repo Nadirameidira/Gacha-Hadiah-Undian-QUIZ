@@ -6,6 +6,7 @@
 ## Daftar Endpoint yang Tersedia
 
 ### Melakukan Spin Gacha
+<img width="1914" height="1077" alt="Image" src="https://github.com/user-attachments/assets/047de9a9-7546-4322-b536-6187b3bf565b" />
 - Endpoint: `POST /api/gacha/spin`
 - Route : `route.post('/spin', gachaController.spin)`
 - Deskripsi: untuk spin gacha undian
