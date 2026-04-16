@@ -5,7 +5,7 @@
 
 ## Daftar Endpoint yang Tersedia
 
-### Melakukan Spin Gacha
+### MELAKUKAN SPIN GACHA
 **Zonk ver**
 <img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/11c5c31f-f913-47fb-8571-0ff6d381eb2c" />
 
@@ -48,7 +48,7 @@ GET http://localhost:5000/api/gacha/quota
 <img width="1891" height="994" alt="Image" src="https://github.com/user-attachments/assets/46117bce-5d8f-4903-97a7-372f307ec41f" />
 
 - Endpoint : `GET api/gacha/winners`
-- Deskripsi : Untuk mengetahui history gacha winnersnya yang sudah di sensor seperti contoh: (1) J*** *oe; atau (2) *oh* D*e.
+- Deskripsi : Untuk mengetahui history gacha winnersnya yang sudah di sensor seperti contoh: (1) J*** *oe; atau (2) * oh* D *e.
 - Contoh Request di echo API "
 GET http://localhost:5000/api/gacha/winners
 
