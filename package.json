@@ -1,15 +1,24 @@
 {
   "name": "backend-programming-template-2025",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Fork and clone this repository to your local computer.\r 2. Open the project using VS Code.\r 3. Install the recommended VS Code extensions: `ESLint` and `Prettier`.\r 4. Copy and rename `.env.example` to `.env`. Open `.env` and change the database connection string.\r 5. Run `npm install` to install the project dependencies.\r 6. Run `npm run dev` to start the dev server.\r 7. Test the endpoints in the API client app.",
+  "homepage": "https://github.com/Nadirameidira/backend-programming-template-2025#readme",
+  "bugs": {
+    "url": "https://github.com/Nadirameidira/backend-programming-template-2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadirameidira/backend-programming-template-2025.git"
+  },
+  "license": "ISC",
+  "author": "Janson Hendryli",
+  "type": "commonjs",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint src/**"
   },
-  "author": "Janson Hendryli",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
