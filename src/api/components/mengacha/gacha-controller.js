@@ -4,10 +4,8 @@ const usersRepository = require('../users/users-repository');
 const { errorResponder, errorTypes } = require('../../../core/errors');
 const { hashPassword } = require('../../../utils/password');
 
-// Fungsi baru: register dan langsung dapet ID
 async function registerAndSpin(request, response, next) {
   try {
-    // Ubah snake_case ke camelCase
     const { email, password, fullName, confirmPassword } = request.body;
 
     if (!email || !password || !fullName) {
